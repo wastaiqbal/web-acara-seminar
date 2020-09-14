@@ -1,0 +1,328 @@
+* {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* border-top: 6px #AD91FF solid !important; */
+    font-size: 16px;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.xlose {
+    left: 1210px;
+    top: 30px;
+    color: #B24592;
+    background: white;
+    border-radius: 20%;
+    font-size: 30px;
+    opacity: 0.1;
+    position: fixed;
+    z-index: 999;
+}
+
+.xlose:hover {
+    color: white;
+    background: black;
+    opacity: 0.3;
+}
+
+.colorful {
+    background: linear-gradient(45deg, #f22613, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+    background-size: 500% 500%;
+    -webkit-animation: azharGradasi 20s ease infinite;
+    -moz-animation: azharGradasi 20s ease infinite;
+    animation: azharGradasi 20s ease infinite;
+}
+
+@-webkit-keyframes azharGradasi {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes azharGradasi {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes azharGradasi {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.heading {
+    padding: 150px 50px 20px 50px !important;
+    color: #fff !important;
+    /* background-image: url("../assets/wavy-purple-by-nouridio.svg") !important; */
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+    height: 465px;
+}
+
+.pembukaan {
+    background: #B24592;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F15F79, #B24592);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F15F79, #B24592);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0px -8px;
+    padding-top: 18px;
+}
+
+.mc {
+    background: #c471ed;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c471ed, #f64f59);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c471ed, #f64f59);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 30px;
+    margin: -18px -8px;
+    height: 730px;
+}
+
+.mc .img_logo {
+    margin-top: 60px;
+}
+
+.mc .img-2 {
+    margin-top: 180px;
+}
+
+.mc h1,
+p {
+    margin-top: 10px;
+}
+
+.pembacaan {
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FC5C7D, #6A82FB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FC5C7D, #6A82FB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.lagu {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3494E6, #EC6EAD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3494E6, #EC6EAD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 1850px;
+}
+
+.sambutan {
+    background: #108dc7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #108dc7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #108dc7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sambutan2 {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3494E6, #c471ed);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3494E6, #c471ed);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sambutan3 {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.doorprize {
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FC5C7D, #6A82FB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FC5C7D, #6A82FB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fotbar {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3494E6, #EC6EAD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3494E6, #EC6EAD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.feedback {
+    background: #108dc7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #108dc7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #108dc7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.thanku {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3494E6, #c471ed);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3494E6, #c471ed);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.moderator {
+    padding-bottom: 350px;
+    margin: -18px -8px;
+    background: #108dc7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #108dc7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #108dc7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.moderator .img_logo {
+    margin-top: 60px;
+}
+
+.moderator .img-2 {
+    margin-top: 80px;
+}
+
+.moderator .img_foto {
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+.moderator .butcv {
+    color: black;
+    font-size: 30px;
+}
+
+.moderator .butcv:hover {
+    color: white;
+    font-size: 30px;
+}
+
+/* Logo */
+.img_logo {
+    margin: 20px -40px 10px 60px;
+}
+
+.img-2 {
+    float: right;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 5000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: -60px;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 20px !important;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+}
+
+.features {
+    margin-top: 19px;
+    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+}
+
+.page_end {
+    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+
+.footer {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    padding: 30px 30px !important
+}
+
+.footer .nouridio {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .nouridio a {
+    color: #f29e4c !important;
+    text-decoration: none !important;
+}
+
+.footer .bot-footer {
+    text-align: center !important;
+    color: #a2a8bd !important
+}
